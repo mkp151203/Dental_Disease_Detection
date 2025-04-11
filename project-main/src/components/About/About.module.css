@@ -1,0 +1,84 @@
+.aboutContainer {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  animation: fadeIn 1s ease-out;
+}
+
+.aboutContainer h2 {
+  color: #3498db;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.section {
+  margin-bottom: 2rem;
+  animation: fadeIn 1.2s ease-out;
+}
+
+.section h3 {
+  color: #2ecc71;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.section ul li {
+  margin-bottom: 0.8rem;
+  padding-left: 1.5rem;
+  position: relative;
+  color: #ecf0f1;
+}
+
+.section ul li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #3498db;
+}
+
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.metric {
+  text-align: center;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+  animation: fadeIn 1.4s ease-out;
+}
+
+.metric:hover {
+  transform: translateY(-5px);
+}
+
+.value {
+  display: block;
+  font-size: 2.5rem;
+  background: linear-gradient(135deg, #3498db, #2ecc71);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.label {
+  display: block;
+  color: #bdc3c7;
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+}
