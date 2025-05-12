@@ -1,0 +1,12 @@
+path: C:/Dev/Python/Yolo/dataset
+test: images/test
+train: images/train
+val: images/val
+
+names:
+    0: Caries
+    1: Infection
+    2: Impacted
+    3: BDC/BDR
+    4: Fractured
+    5: Healthy
