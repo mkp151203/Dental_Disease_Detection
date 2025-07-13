@@ -37,5 +37,4 @@ A deep learning-powered web application for real-time dental disease prediction 
 
 ---
 
-## 📁 Project Structure
 
